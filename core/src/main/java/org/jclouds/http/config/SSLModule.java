@@ -96,7 +96,8 @@ public class SSLModule extends AbstractModule {
    /**
     * 
     * Used to trust all certs
-    * 
+    * It is not secure
+    *
     */
    @Singleton
    public static class TrustAllCerts implements X509TrustManager {
